@@ -3,6 +3,7 @@ from math import pi
 
 class Circle:
     def __init__(self, radius):
+        assert radius > 0, 'Radius must be greater than 0'
         self.radius = radius
 
     def get_area(self):
